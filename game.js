@@ -43600,34 +43600,6 @@ window.JfCzGzvGIQB8rrJX={isProxy: true};
     }]);
   }();
   var iìíìiìî = new iîiïiìì();
-  JfCzGzvGIQB8rrJX(function () {
-    var iîïîïìî;
-    var iíîiiìî;
-    var iìiîìii;
-    if (!iîîíìíí(iììïiíì)) {
-      iìiîìii = function () {
-        var iìiîíîï;
-        var iïiíïïì;
-        var iìîìîíï = (iìiîíîï = (iïiíïïì = window).getSavedVal) === null || iìiîíîï === undefined ? undefined : iìiîíîï.call(iïiíïïì, iïïiíïi);
-        if (iìîìîíï) {
-          return parseInt(iìîìîíï, 10);
-        } else {
-          return null;
-        }
-      }();
-      if (!iìiîìii || Date.now() - iìiîìii >= 7200000) {
-        if ((iîïîïìî = (iíîiiìî = window).saveVal) !== null && iîïîïìî !== undefined) {
-          iîïîïìî.call(iíîiiìî, iïïiíïi, Date.now().toString());
-        }
-        iiìííìì({
-          title: "Register",
-          content: iiíiìíi
-        }, {
-          duration: 15000
-        });
-      }
-    }
-  }, 45000 + Math.random() * 15000);
   var iiiìíïî = iîíiììî("<!> <!> <!>", 1);
   function iíîììïî(iîíìiïî, iiiîìîi) {
     return iìíîiìí.apply(this, arguments);
