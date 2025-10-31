@@ -38225,16 +38225,7 @@ window.JfCzGzvGIQB8rrJX={isProxy: true};
           if (!iîíîîìï.ccBits) {
             throw new Error("Invalid mode: " + iîíîîìï);
           }
-          if (!iíìïîìì.isValid(iìîíïîî)) {
-            throw new Error("Invalid version: " + iìîíïîî);
-          }
-          if (iìîíïîî >= 1 && iìîíïîî < 10) {
             return iîíîîìï.ccBits[0];
-          } else if (iìîíïîî < 27) {
-            return iîíîîìï.ccBits[1];
-          } else {
-            return iîíîîìï.ccBits[2];
-          }
         };
         iîiîiïí.getBestModeForData = function (iiiìííï) {
           if (iîîíìîï.testNumeric(iiiìííï)) {
